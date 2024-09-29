@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 0;
+}
+.form_search {
+    width: 85%;
+    margin: 0px auto;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.form_search input {
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.form_search input:focus {
+    border: 2px solid green;
+}
